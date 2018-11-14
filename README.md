@@ -11,7 +11,7 @@ URL : `http://localhost:8080/emps`
 ```json
 {
     "status": "Success",
-    "message": null,
+    "message": "정상처리되었습니다.",
     "data": [
         {
             "id": 1,
@@ -43,8 +43,8 @@ Body(raw) :
 ```json
 {
     "id": 0,
-    "firstName": "Seokwon",
-    "lastName": "Song"
+    "firstName": "gildong",
+    "lastName": "hong"
 }
 ```
 
@@ -52,11 +52,11 @@ Body(raw) :
 ```json
 {
     "status": "Success",
-    "message": null,
+    "message": "정상처리되었습니다.",
     "data": {
         "id": 4,
-        "firstName": "Seokwon",
-        "lastName": "Song"
+        "firstName": "gildong",
+        "lastName": "hong"
     },
     "errorCode": null,
     "errorMessage": null
@@ -74,7 +74,7 @@ URL : `http://localhost:8080/emps/4`
 ```json
 {
     "status": "Success",
-    "message": null,
+    "message": "정상처리되었습니다.",
     "data": null,
     "errorCode": null,
     "errorMessage": null
@@ -92,8 +92,8 @@ Body(raw) :
 ```json
 {
     "id": 3,
-    "firstName": "Seokwon",
-    "lastName": "Song"
+    "firstName": "gildong",
+    "lastName": "hong"
 }
 ```
 
@@ -104,8 +104,8 @@ Body(raw) :
     "message": null,
     "data": {
         "id": 3,
-        "firstName": "Seokwon",
-        "lastName": "Song"
+        "firstName": "gildong",
+        "lastName": "hong"
     },
     "errorCode": null,
     "errorMessage": null
